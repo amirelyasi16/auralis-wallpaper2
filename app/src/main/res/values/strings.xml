@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auralis</string>
+    <string name="hero_title">دنیای تو، یک لمس فاصله</string>
+    <string name="hero_subtitle">۲۴۰+ والپیپر ۴K برای صفحه‌نمایش‌ات</string>
+    <string name="search_placeholder">جستجوی والپیپر، رنگ، حس و حال…</string>
+
+    <string name="cat_all">همه</string>
+    <string name="cat_nature">طبیعت</string>
+    <string name="cat_space">فضا</string>
+    <string name="cat_minimal">مینیمال</string>
+    <string name="cat_neon">نئون</string>
+    <string name="cat_abstract">انتزاعی</string>
+
+    <string name="nav_home">خانه</string>
+    <string name="nav_explore">کاوش</string>
+    <string name="nav_fav">پسندیده‌ها</string>
+    <string name="nav_profile">پروفایل</string>
+
+    <string name="set_wallpaper">تنظیم به‌عنوان والپیپر</string>
+    <string name="setting_wallpaper">در حال تنظیم…</string>
+    <string name="wallpaper_success">والپیپر با موفقیت تنظیم شد</string>
+    <string name="wallpaper_failed">خطا در تنظیم والپیپر</string>
+    <string name="added_to_favorites">به پسندیده‌ها افزوده شد</string>
+    <string name="removed_from_favorites">از پسندیده‌ها حذف شد</string>
+    <string name="link_copied">لینک کپی شد</string>
+    <string name="no_results_title">چیزی پیدا نشد</string>
+    <string name="no_results_subtitle">واژه‌ی دیگری را امتحان کن</string>
+    <string name="no_favorites">هنوز چیزی پسندیده نشده</string>
+
+    <string name="cd_profile">پروفایل</string>
+    <string name="cd_close">بستن</string>
+    <string name="cd_share">اشتراک‌گذاری</string>
+    <string name="cd_like">پسندیدن</string>
+    <string name="apply_home">صفحه اصلی</string>
+    <string name="apply_lock">صفحه قفل</string>
+    <string name="apply_both">هر دو</string>
+    <string name="choose_target">والپیپر روی کجا تنظیم شود؟</string>
+</resources>
