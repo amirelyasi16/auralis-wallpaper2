@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="bg_deep">#0A0E14</color>
+    <color name="bg_surface">#11151D</color>
+    <color name="fg_bright">#FAFAFA</color>
+    <color name="fg_dim">#8B92A3</color>
+
+    <!-- Accents -->
+    <color name="violet">#7C5CFF</color>
+    <color name="pink">#FF6B9D</color>
+    <color name="teal">#00D9C0</color>
+    <color name="amber">#FFB454</color>
+
+    <!-- Category colors -->
+    <color name="cat_nature_1">#00D9C0</color>
+    <color name="cat_nature_2">#3B82F6</color>
+    <color name="cat_space_1">#312E81</color>
+    <color name="cat_space_2">#7C5CFF</color>
+    <color name="cat_minimal_1">#64748B</color>
+    <color name="cat_minimal_2">#0EA5E9</color>
+    <color name="cat_neon_1">#FF6B9D</color>
+    <color name="cat_neon_2">#7C5CFF</color>
+    <color name="cat_abstract_1">#FFB454</color>
+    <color name="cat_abstract_2">#FF6B9D</color>
+
+    <!-- Glass -->
+    <color name="glass">#1AFFFFFF</color>
+    <color name="glass_border">#1AFFFFFF</color>
+    <color name="overlay_dark">#BF000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
