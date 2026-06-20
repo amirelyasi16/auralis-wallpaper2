@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Auralis" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="colorPrimary">@color/violet</item>
+        <item name="colorSecondary">@color/pink</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/fg_bright</item>
+        <item name="android:statusBarColor">@color/bg_deep</item>
+        <item name="android:navigationBarColor">@color/bg_deep</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.Auralis.Viewer" parent="Theme.Auralis">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/ViewerWindowAnimation</item>
+    </style>
+
+    <style name="ViewerWindowAnimation" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/viewer_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/viewer_exit</item>
+    </style>
+
+    <style name="TextAppearance.Auralis.Display" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/fg_bright</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="TextAppearance.Auralis.Body" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/fg_dim</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.Auralis.Mono" parent="android:TextAppearance">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/fg_dim</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Chip.Auralis" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/bg_surface</item>
+        <item name="chipStrokeColor">@color/glass_border</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/fg_dim</item>
+        <item name="chipCornerRadius">100dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>
